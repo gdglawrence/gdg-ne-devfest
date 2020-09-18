@@ -1,0 +1,50 @@
+
+
+.gdg-chapters-banner-inner {
+    display: flex;
+    flex-direction: column;
+    padding: 64px;
+
+    .gdg-chapters-banner-inner-top {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+        text-align: center;
+
+        .gdg-chapters-msg {
+            color: grey;
+            margin: 12px 0px 32px;
+            font-size: 1.5em;
+        }
+    }
+
+    .gdg-chapters-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+        .gdg-chapter {
+            padding: 8px;
+            text-align: center;
+    
+            a {
+                color: grey;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .gdg-chapters-list {
+        grid-template-columns: 1fr !important;
+
+        .gdg-chapter {
+            font-size: 1.25em !important;
+            padding: 16px 0px !important;
+        }
+    }
+}
+

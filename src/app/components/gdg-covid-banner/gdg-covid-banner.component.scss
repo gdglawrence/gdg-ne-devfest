@@ -1,0 +1,69 @@
+@import './../../../assets/styles/colors.scss';
+
+.gdg-covid-banner {
+    color: #FFF;
+
+    .gdg-covid-title-msg {
+        background: $darker-purple;
+
+        .gdg-covid-title-inner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 32px;
+
+            .material-icons {
+                font-size: 2em;
+                margin-right: 12px;
+            }
+        }
+    }
+
+    .gdg-covid-banner-content {
+        background: $dark-purple;
+
+        .gdg-covid-guidelines {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 32px 0px;
+
+            .gdg-covid-guideline {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 32px;
+
+                .material-icons {
+                    font-size: 5em;
+                    margin-bottom: 32px;
+                }
+
+                .gdg-covid-label {
+                    font-size: 1em;
+                    width: 120px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .gdg-covid-guidelines {
+        flex-direction: column !important;
+
+        .gdg-covid-guideline {
+            .material-icons {
+                margin-bottom: 10px !important;
+            }
+
+            .gdg-covid-label {
+                font-size: 1.25em !important;
+                text-align: center !important;
+            }
+        }
+    }
+}

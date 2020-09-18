@@ -1,0 +1,21 @@
+<div class="gdg-chapters-banner">
+    <div class="container">
+        <div class="gdg-chapters-banner-inner">
+            <div class="gdg-chapters-banner-inner-top">
+                <div class="gdg-logo-color">
+                    <img src='./../../../assets/imgs/gdg_logo_color.svg' />
+                </div>
+                <div class="gdg-chapters-msg">
+                    A joint effort between the following GDG Chapters:
+                </div>
+            </div>
+            <div class="gdg-chapters-list">
+                <ng-container *ngFor="let chapter of gdgChapters">
+                    <div class="gdg-chapter">
+                        <a href="{{ chapter.link }}">{{ chapter.name }}</a>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div>
