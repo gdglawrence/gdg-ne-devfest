@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1600524414714,
+  "timestamp": 1600530628426,
   "index": "https://gdglawrence.github.io/gdg-ne-devfest/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "https://gdglawrence.github.io/gdg-ne-devfest/index.html",
-        "https://gdglawrence.github.io/gdg-ne-devfest/main.4fac18fa337e0a226384.js",
+        "https://gdglawrence.github.io/gdg-ne-devfest/main.33e7a1d0b15bfd34d973.js",
         "https://gdglawrence.github.io/gdg-ne-devfest/manifest.webmanifest",
         "https://gdglawrence.github.io/gdg-ne-devfest/polyfills.a4021de53358bb0fec14.js",
         "https://gdglawrence.github.io/gdg-ne-devfest/runtime.e227d1a0e31cbccbf8ec.js",
@@ -118,8 +118,8 @@
     "https://gdglawrence.github.io/gdg-ne-devfest/assets/styles/common.scss": "bcc62e6eaa623e0ef47621c293a67ca7bbd845bc",
     "https://gdglawrence.github.io/gdg-ne-devfest/devfest_bg.ee90a6941714ae4fcf59.png": "09f7d9bff306c1c556cba0c62be91f96bdc79152",
     "https://gdglawrence.github.io/gdg-ne-devfest/googlesans-regular.de87f08659cd390c16b0.ttf": "622d237be5cf8501b951a3abadb9440e65633adf",
-    "https://gdglawrence.github.io/gdg-ne-devfest/index.html": "c2a6de7bbde847f620ce96965eb75792e83023e4",
-    "https://gdglawrence.github.io/gdg-ne-devfest/main.4fac18fa337e0a226384.js": "a6296466488aac2e2ca553c9769f7969fc806f2d",
+    "https://gdglawrence.github.io/gdg-ne-devfest/index.html": "e109d995fa70890ce399b6ae4102fa4f0c00589c",
+    "https://gdglawrence.github.io/gdg-ne-devfest/main.33e7a1d0b15bfd34d973.js": "48b9ce658cce2d02ea69b45d2c8590e4a2d7ce1d",
     "https://gdglawrence.github.io/gdg-ne-devfest/manifest.webmanifest": "67299ac370775e3395a63f35000229dd9afbbdcd",
     "https://gdglawrence.github.io/gdg-ne-devfest/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
     "https://gdglawrence.github.io/gdg-ne-devfest/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
