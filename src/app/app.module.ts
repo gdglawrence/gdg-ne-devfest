@@ -10,6 +10,7 @@ import { GdgFollowBannerComponent } from './components/gdg-follow-banner/gdg-fol
 import { GdgCovidBannerComponent } from './components/gdg-covid-banner/gdg-covid-banner.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { SpeakersBannerComponent } from './components/speakers-banner/speakers-banner.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { environment } from '../environments/environment';
     HeroBannerComponent,
     GdgChaptersBannerComponent,
     GdgFollowBannerComponent,
-    GdgCovidBannerComponent
+    GdgCovidBannerComponent,
+    SpeakersBannerComponent
   ],
   imports: [
     BrowserModule,

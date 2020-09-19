@@ -1,0 +1,20 @@
+<section class="speakers-banner">
+    <div class="container">
+        <div class="speakers-container">
+            <h1 class="common-banner-title">Featured Speakers</h1>
+            <div class="speakers-list">
+                <ng-container *ngFor="let speaker of speakers">
+                    <div class="speaker-banner-card">
+                        <div class="speaker-img"
+                            [ngStyle]="{ 'background-image': 'url(./assets/imgs/speakers/' + speaker.img + '.jpg)' }"></div>
+                        <div class="speaker-name">{{ speaker.name }}</div>
+                        <div class="speaker-company">{{ speaker.company }}</div>
+                        <div class="speaker-tech">
+                            <img src="{{ './assets/imgs/tech/' + speaker.tech + '.png' }}" />
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</section>
