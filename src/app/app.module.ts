@@ -12,7 +12,9 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { SpeakersBannerComponent } from './components/speakers-banner/speakers-banner.component';
 import { SponsorsBannerComponent } from './components/sponsors-banner/sponsors-banner.component';
-import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component'
+import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component';
+import { SpeakerCardComponent } from './components/speaker-card/speaker-card.component';
+import { FooterComponent } from './components/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.compo
     GdgCovidBannerComponent,
     SpeakersBannerComponent,
     SpeakersPageComponent,
-    SponsorsBannerComponent
+    SponsorsBannerComponent,
+    SpeakerCardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

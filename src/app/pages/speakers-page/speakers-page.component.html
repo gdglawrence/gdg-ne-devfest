@@ -1,9 +1,12 @@
-<div id=maincontainer>
-    <ul>
-        <li *ngFor="let speaker of speakers">
-            <div>{{ speaker.name }}</div>
-            <div>{{ speaker.bio }}</div>
-            <div>{{ speaker.skills }}</div>
-        </li>
-      </ul>
+<div class="speakers-page">
+    <div class="container">
+        <div class="speakers-container">
+            <h1 class="common-banner-title">Featured Speakers</h1>
+            <div class="speakers-list">
+                <ng-container *ngFor="let speaker of speakers">
+                    <app-speaker-card [speaker]="speaker"></app-speaker-card>
+                </ng-container>
+            </div>
+        </div>
+    </div>
 </div>

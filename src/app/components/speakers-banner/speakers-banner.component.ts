@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Speaker } from 'src/app/models/speaker';
+import speakerData from '../../data/speakers.json';
 
 @Component({
   selector: 'app-speakers-banner',
@@ -7,32 +9,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SpeakersBannerComponent implements OnInit {
 
-  speakers = [
-    { 
-      name: "Dan Sullivan",
-      company: "Google Cloud",
-      tech: "google_cloud",
-      img: "dan_sullivan"
-    },
-    { 
-      name: "Frank van Puffelen",
-      company: "Firebase",
-      tech: "firebase",
-      img: "frank_van_puffelen"
-    },
-    { 
-      name: "Sara Robinson",
-      company: "AI / ML",
-      tech: "ai_ml",
-      img: "sara_robinson"
-    },
-    { 
-      name: "Scott Stroll",
-      company: "Flutter",
-      tech: "flutter",
-      img: "scott_stroll"
-    }
-  ];
+  speakers: Speaker[] = speakerData;
+  
   constructor() { }
 
   ngOnInit(): void {

@@ -1,0 +1,19 @@
+<div class="speaker-card">
+    <div class="speaker-card-img"
+        [ngStyle]="{ 'background': 'url(' + speaker.img + ')' }"></div>
+    <div class="speaker-card-name">{{ speaker.name }}</div>
+    <div class="speaker-card-title">{{ speaker.title }}</div>
+    <div class="speaker-card-tech">
+        <img [src]="speaker.tech" />
+    </div>
+    <div class="speaker-card-bio">{{ speaker.bio }}</div>
+    <div class="speaker-card-social-media">
+        <ng-container *ngFor="let socialmedia of speaker.socialMedia">
+            <div class="speaker-social-media">
+                <a href="{{ socialmedia.link }}">
+                    <i class="fab fa-{{ socialmedia.type }}"></i>
+                </a>
+            </div>
+        </ng-container>
+    </div>
+</div>

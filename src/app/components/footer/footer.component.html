@@ -1,0 +1,22 @@
+<div class="main-footer">
+    <div class="container">
+        <div class="gdg-devfest-footer">
+            <div class="gdg-devfest-footer-region gdg-devfest-footer-left">
+                <h3>Links</h3>
+                <ul>
+                    <li *ngFor="let link of footerData.footerLinks">
+                        <a href="{{ link.link }}">{{ link.label }}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="gdg-devfest-footer-region gdg-devfest-footer-right">
+                <h3>Policy</h3>
+                <ul>
+                    <li *ngFor="let link of footerData.policyLinks">
+                        <a href="{{ link.link }}">{{ link.label }}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

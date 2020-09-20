@@ -1,0 +1,26 @@
+{
+    "footerLinks": [
+        {
+            "label": "Google Developers",
+            "link": "https://developers.google.com/"
+        },
+        {
+            "label": "GDG DevFest",
+            "link": "https://devfest.withgoogle.com/"
+        }
+    ],
+    "policyLinks": [
+        {
+            "label": "Code of Conduct",
+            "link": "https://devfest.withgoogle.com/code-of-conduct"
+        },
+        {
+            "label": "Privacy",
+            "link": "https://policies.google.com/privacy"
+        },
+        {
+            "label": "About",
+            "link": "https://about.google/"
+        }
+    ]
+}

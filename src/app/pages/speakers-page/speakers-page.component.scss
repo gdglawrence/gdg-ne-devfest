@@ -1,0 +1,23 @@
+@import './../../../assets/styles/colors.scss';
+@import './../../../assets/styles/common.scss';
+
+.speakers-page {
+    margin: 32px 0px;
+}
+
+.speakers-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1250px) {
+    .speakers-list {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .speakers-list {
+        grid-template-columns: 1fr !important;
+    }
+}
