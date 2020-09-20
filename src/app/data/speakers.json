@@ -1,14 +1,78 @@
 [
     {
         "id" : 1,
-        "name" : "Kevin Quan",
-        "bio" : "Software Architect",
-        "skills" : "Angular"
+        "name" : "Dan Sullivan",
+        "title" : "Principal Engineer @ PEAK6 Technologies",
+        "skills" : "Google Cloud",
+        "img": "./assets/imgs/speakers/dan_sullivan.jpg",
+        "tech": "./assets/imgs/tech/google_cloud.png",
+        "bio": "Dan Sullivan is a Principal Engineer with PEAK6 Technologies. He is a software architect and data scientist with extensive experience in data science, machine learning, and cloud architecture. Dan is the author of the official Google Cloud study guides for the Professional Architect, Professional Data Engineer, and Associate Cloud Engineer certification exams as well as the instructor of over a dozen courses on machine learning, data science, and cloud computing on LinkedIn Learning and Udemy. He holds a Ph.D. in genetics, bioinformatics, and computational biology with a focus on infectious disease genomics.",
+        "socialMedia": [
+            {
+                "type": "linkedin",
+                "link": "https://www.linkedin.com/in/dansullivanpdx/"
+            },
+            {
+                "type": "twitter",
+                "link": ""
+            }
+        ]
     },
     {
         "id" : 2,
-        "name" : "Roman Jaquez",
-        "bio" : "Software Developer",
-        "skills" : "Angular"
+        "name" : "Sara Robinson",
+        "title" : "Developer Advocate @ Google",
+        "skills" : "AI / ML",
+        "img": "./assets/imgs/speakers/sara_robinson.jpg",
+        "tech": "./assets/imgs/tech/ai_ml.png",
+        "bio": "Sara is a Developer Advocate on Google's Cloud Platform team, focusing on big data and machine learning. She helps developers build awesome apps through demos, online content, and events. Sara has a bachelor’s degree in Business and International Studies from Brandeis University. When she’s not programming, she can be found on a spin bike, listening to the Hamilton soundtrack, or finding the best ice cream in Boston.",
+        "socialMedia": [
+            {
+                "type": "linkedin",
+                "link": "https://www.linkedin.com/in/sara-robinson-40377924/"
+            },
+            {
+                "type": "twitter",
+                "link": "https://twitter.com/SRobTweets"
+            }
+        ]
+    },
+    {
+        "id" : 3,
+        "name" : "Frank van Puffelen",
+        "title" : "Firebase Engineer @ Google",
+        "skills" : "Firebase",
+        "img": "./assets/imgs/speakers/frank_van_puffelen.jpg",
+        "tech": "./assets/imgs/tech/firebase.png",
+        "bio": "Frank (or Puf) is an engineer for Firebase at Google. He helps developers build extraordinary apps that use Firebase as their back-end. If you've ever asked a Firebase question on StackOverflow, you've probably met Frank already.",
+        "socialMedia": [
+            {
+                "type": "linkedin",
+                "link": "https://www.linkedin.com/in/frankvanpuffelen/"
+            },
+            {
+                "type": "twitter",
+                "link": "https://twitter.com/puf"
+            }
+        ]
+    },
+    {
+        "id" : 4,
+       "name" : "Scott Stoll",
+        "title" : "Software Developer focused on Flutter",
+        "skills" : "Flutter",
+        "img": "./assets/imgs/speakers/scott_stoll.jpg",
+        "tech": "./assets/imgs/tech/flutter.png",
+        "bio": "Scott has been involved with Flutter since v0.0.14 (Alpha), working both nationally and internationally as a Flutter Application Developer and Content Creator. Additionally, he has spoken and taught on Flutter at convention events in the United States, Canada, and the United Kingdom, as well as many smaller groups and meetup organizations throughout the United States. He also possesses an Android Developer Nanodegree, from Google/Udacity.",
+        "socialMedia": [
+            {
+                "type": "linkedin",
+                "link": "https://www.linkedin.com/in/scott-stoll-59722915a/"
+            },
+            {
+                "type": "twitter",
+                "link": "https://twitter.com/scottstoll2017"
+            }
+        ]
     }
 ]

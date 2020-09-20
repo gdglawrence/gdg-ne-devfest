@@ -1,0 +1,39 @@
+@import './../../../assets/styles/colors.scss';
+
+.main-footer {
+    background: $light-gray;
+}
+
+.gdg-devfest-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px;
+
+    .gdg-devfest-footer-region {
+        ul {
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+
+            li {
+                padding: 0px;
+                margin: 16px 0px;
+
+                a {
+                    text-decoration: none;
+                    color: grey;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gdg-devfest-footer {
+        flex-direction: column;
+
+        .gdg-devfest-footer-region:first-child {
+            margin-bottom: 32px;
+        }
+    }
+}
