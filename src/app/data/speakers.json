@@ -1,0 +1,14 @@
+[
+    {
+        "id" : 1,
+        "name" : "Kevin Quan",
+        "bio" : "Software Architect",
+        "skills" : "Angular"
+    },
+    {
+        "id" : 2,
+        "name" : "Roman Jaquez",
+        "bio" : "Software Developer",
+        "skills" : "Angular"
+    }
+]
