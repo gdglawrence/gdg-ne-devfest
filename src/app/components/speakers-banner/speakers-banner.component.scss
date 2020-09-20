@@ -57,11 +57,22 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .speakers-list {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .speaker-banner-card {
+        padding: 0px !important;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .speakers-list {
         grid-template-columns: 1fr !important;
 
         .speaker-banner-card {
+            padding: 0px 32px 32px 32px !important;
             margin-bottom: 32px;
         }
     }

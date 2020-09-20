@@ -53,6 +53,22 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .sponsor-img {
+        width: 150px !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .sponsors-list {
+        grid-template-columns: 1fr 1fr !important;
+    }
+
+    .sponsor-banner-card {
+        padding: 0px !important;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .sponsors-list {
         grid-template-columns: 1fr !important;
