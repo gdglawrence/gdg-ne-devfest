@@ -1,0 +1,21 @@
+<section class="sponsors-banner">
+    <div class="container">
+        <div class="sponsors-container">
+            <h1 class="common-banner-title">Our Sponsors</h1>
+            <div class="sponsors-list">
+                <ng-container *ngFor="let sponsor of sponsors">
+                    <div class="sponsor-banner-card">
+                        <div class="sponsor-img">
+                            <img [src]="sponsor.img" />
+                        </div>
+                        <!-- <div class="sponsor-name">{{ sponsor.name }}</div> -->
+                        <!-- <div class="sponsor-company">{{ sponsor.company }}</div> -->
+                        <!-- <div class="sponsor-tech">
+                            <img [src]="sponsor.img" />
+                        </div> -->
+                    </div>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</section>
