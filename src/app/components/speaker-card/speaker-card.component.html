@@ -9,7 +9,7 @@
     <div class="speaker-card-bio">{{ speaker.bio }}</div>
     <div class="speaker-card-social-media">
         <ng-container *ngFor="let socialmedia of speaker.socialMedia">
-            <div class="speaker-social-media">
+            <div *ngIf="socialmedia.link != ''" class="speaker-social-media">
                 <a href="{{ socialmedia.link }}">
                     <i class="fab fa-{{ socialmedia.type }}"></i>
                 </a>

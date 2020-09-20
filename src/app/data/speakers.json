@@ -10,7 +10,7 @@
         "socialMedia": [
             {
                 "type": "linkedin",
-                "link": ""
+                "link": "https://www.linkedin.com/in/dansullivanpdx/"
             },
             {
                 "type": "twitter",
@@ -29,11 +29,11 @@
         "socialMedia": [
             {
                 "type": "linkedin",
-                "link": ""
+                "link": "https://www.linkedin.com/in/sara-robinson-40377924/"
             },
             {
                 "type": "twitter",
-                "link": ""
+                "link": "https://twitter.com/SRobTweets"
             }
         ]
     },
@@ -48,30 +48,30 @@
         "socialMedia": [
             {
                 "type": "linkedin",
-                "link": ""
+                "link": "https://www.linkedin.com/in/frankvanpuffelen/"
             },
             {
                 "type": "twitter",
-                "link": ""
+                "link": "https://twitter.com/puf"
             }
         ]
     },
     {
         "id" : 4,
-       "name" : "Scott Stroll",
+       "name" : "Scott Stoll",
         "title" : "Software Developer focused on Flutter",
         "skills" : "Flutter",
-        "img": "./assets/imgs/speakers/scott_stroll.jpg",
+        "img": "./assets/imgs/speakers/scott_stoll.jpg",
         "tech": "./assets/imgs/tech/flutter.png",
         "bio": "Scott has been involved with Flutter since v0.0.14 (Alpha), working both nationally and internationally as a Flutter Application Developer and Content Creator. Additionally, he has spoken and taught on Flutter at convention events in the United States, Canada, and the United Kingdom, as well as many smaller groups and meetup organizations throughout the United States. He also possesses an Android Developer Nanodegree, from Google/Udacity.",
         "socialMedia": [
             {
                 "type": "linkedin",
-                "link": ""
+                "link": "https://www.linkedin.com/in/scott-stoll-59722915a/"
             },
             {
                 "type": "twitter",
-                "link": ""
+                "link": "https://twitter.com/scottstoll2017"
             }
         ]
     }
