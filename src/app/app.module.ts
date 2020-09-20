@@ -12,7 +12,7 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { SpeakersBannerComponent } from './components/speakers-banner/speakers-banner.component';
 import { SponsorsBannerComponent } from './components/sponsors-banner/sponsors-banner.component';
-
+import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component'
 
 @NgModule({
   declarations: [
@@ -23,6 +23,7 @@ import { SponsorsBannerComponent } from './components/sponsors-banner/sponsors-b
     GdgFollowBannerComponent,
     GdgCovidBannerComponent,
     SpeakersBannerComponent,
+    SpeakersPageComponent,
     SponsorsBannerComponent
   ],
   imports: [
