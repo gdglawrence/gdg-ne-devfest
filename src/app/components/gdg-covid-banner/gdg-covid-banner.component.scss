@@ -50,12 +50,21 @@
     }
 }
 
+
+@media screen and (max-width: 768px) {
+    .gdg-covid-guideline {
+        padding: 32px 0px !important;
+    }
+}
+
 @media screen and (max-width: 480px) {
 
     .gdg-covid-guidelines {
         flex-direction: column !important;
 
         .gdg-covid-guideline {
+            padding: 32px !important;
+
             .material-icons {
                 margin-bottom: 10px !important;
             }
