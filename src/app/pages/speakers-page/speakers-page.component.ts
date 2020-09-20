@@ -1,12 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Speaker } from '../../models/speaker';
 import speakerData from '../../data/speakers.json';
-
-interface Speaker {
-  id: Number;
-  name : string;
-  bio: string;
-  skills: string;
-}
 
 @Component({
   selector: 'app-speakers-page',
