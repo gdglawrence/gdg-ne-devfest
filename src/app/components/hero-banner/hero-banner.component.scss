@@ -2,9 +2,10 @@
 @import './../../../assets/styles/common.scss';
 
 .hero-banner {
-    min-height: 600px;
-    background: url('./../../../assets/imgs/devfest_bg.png') no-repeat;
+    min-height: 400px;
+    background: url('./../../../assets/imgs/gdgdevfest_webbanner.jpg') no-repeat;
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,11 +16,12 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin: 128px 0px;
+        margin: 64px 0px;
 
         .gdg-devfest-logo {
-            width: 300px;
-            height: 250px;
+            width: 350px;
+            height: 220px;
+            margin-bottom: 32px;
 
             img {
                 max-width: 100%;
@@ -53,8 +55,8 @@
         }
 
         .save-date-btn {
-            background: $main-purple;
-            color: #FFF;
+            background: $gdg-devfest-yellow;
+            color: #000;
             padding: 10px 100px;
             font-size: 1.2em;
         }
@@ -69,9 +71,9 @@
         text-align: center;
 
         .gdg-devfest-logo {
-            width: 200px !important;
+            width: 280px !important;
             height: 200px !important;
-            margin-top: 100px;
+            margin-top: 60px;
         }
 
         .save-date-btn {
