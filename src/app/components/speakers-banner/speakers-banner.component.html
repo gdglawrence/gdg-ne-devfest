@@ -4,15 +4,7 @@
             <h1 class="common-banner-title">Featured Speakers</h1>
             <div class="speakers-list">
                 <ng-container *ngFor="let speaker of speakers">
-                    <div class="speaker-banner-card">
-                        <div class="speaker-img"
-                            [ngStyle]="{ 'background-image': 'url(' + speaker.img + ')' }"></div>
-                        <div class="speaker-name">{{ speaker.name }}</div>
-                        <div class="speaker-company">{{ speaker.skills }}</div>
-                        <div class="speaker-tech">
-                            <img [src]="speaker.tech" />
-                        </div>
-                    </div>
+                    <app-speaker-card [speaker]="speaker"></app-speaker-card>
                 </ng-container>
             </div>
         </div>

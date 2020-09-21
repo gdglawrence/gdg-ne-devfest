@@ -1,6 +1,15 @@
 <div class="speaker-card">
-    <div class="speaker-card-img"
+    <div class="speaker-card-corner-dot"></div>
+    <div class="speaker-card-img-wrapper">
+        <div class="speaker-card-img-dot"></div>
+        <div class="speaker-card-img"
         [ngStyle]="{ 'background': 'url(' + speaker.img + ')' }"></div>
+        <div class="speaker-card-img-border"></div>
+        <div class="speaker-card-img-corner speaker-card-img-corner-bl"></div>
+        <div class="speaker-card-img-corner speaker-card-img-corner-br"></div>
+        <div class="speaker-card-img-corner speaker-card-img-corner-tr"></div>
+    </div>
+    
     <div class="speaker-card-name">{{ speaker.name }}</div>
     <div class="speaker-card-title">{{ speaker.title }}</div>
     <div class="speaker-card-tech">
