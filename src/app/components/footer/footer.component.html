@@ -5,7 +5,7 @@
                 <h3>Links</h3>
                 <ul>
                     <li *ngFor="let link of footerData.footerLinks">
-                        <a href="{{ link.link }}">{{ link.label }}</a>
+                        <a target="_blank" href="{{ link.link }}">{{ link.label }}</a>
                     </li>
                 </ul>
             </div>
@@ -13,7 +13,7 @@
                 <h3>Policy</h3>
                 <ul>
                     <li *ngFor="let link of footerData.policyLinks">
-                        <a href="{{ link.link }}">{{ link.label }}</a>
+                        <a target="_blank" href="{{ link.link }}">{{ link.label }}</a>
                     </li>
                 </ul>
             </div>
