@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1600723174241,
+  "timestamp": 1600727561188,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main.d28cafcbf6a8d87031cd.js",
+        "/main.b7371e5fe70fd878a5e1.js",
         "/manifest.webmanifest",
         "/polyfills.a4021de53358bb0fec14.js",
         "/runtime.e227d1a0e31cbccbf8ec.js",
@@ -28,6 +28,7 @@
         "ignoreVary": true
       },
       "urls": [
+        "/assets/fonts/devdayzmono-regular.ttf",
         "/assets/fonts/googlesans-regular.ttf",
         "/assets/icons/android-144x144.png",
         "/assets/icons/android-192x192.png",
@@ -82,6 +83,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
+    "/assets/fonts/devdayzmono-regular.ttf": "a54b7ff1fec689436a8d0b33db366f6dd31ebcd0",
     "/assets/fonts/googlesans-regular.ttf": "622d237be5cf8501b951a3abadb9440e65633adf",
     "/assets/icons/android-144x144.png": "69c6a1b6ee12ce2821bd13bcb82b2f18964cff7a",
     "/assets/icons/android-192x192.png": "5928484d2823b3452dd3429071cb59ab58a2186c",
@@ -99,10 +101,10 @@
     "/assets/icons/favicon-32x32.png": "2ae45609c0d9d57b9e3fa366e047f9d9d350f9c7",
     "/assets/icons/favicon.ico": "6050c02062cf53e744bedbb82ec5dddbbda4a50f",
     "/assets/imgs/devfest_bg.png": "09f7d9bff306c1c556cba0c62be91f96bdc79152",
-    "/assets/imgs/devfest_logo.svg": "85609eb512c05ee410e040ada135488fba2157fd",
-    "/assets/imgs/devfest_main_logo.svg": "4d7e5c0fb3f7f3d5569273d5bcc87a27031b2de2",
-    "/assets/imgs/gdg_logo_color.svg": "89e02aca63002a42b4b312f286e5bbbda23cb8d3",
-    "/assets/imgs/gdg_logo_white.svg": "357ad87377cd9529bd831bd228b9d954a398357e",
+    "/assets/imgs/devfest_logo.svg": "1ae6c3dc3e4427be76ffa0cc2c6ea7c8c5129b61",
+    "/assets/imgs/devfest_main_logo.svg": "d226a10650f3deb9262823083fd483ff41c5d10e",
+    "/assets/imgs/gdg_logo_color.svg": "9714c6f304090ba75d17a3f1586782c92c5edfe8",
+    "/assets/imgs/gdg_logo_white.svg": "a16e3d55a841c6efed2c9179c7525d23144d1eda",
     "/assets/imgs/gdgdevfest_webbanner.jpg": "436df00d9d257a01b386434f1d750d31497c64cd",
     "/assets/imgs/speakers/dan_sullivan.jpg": "879ba3db3cea5b9bf2ba9402a6c89a2b5d058535",
     "/assets/imgs/speakers/frank_van_puffelen.jpg": "ad4ad85337b4721ba9a96f1a9c30ab767b3256be",
@@ -126,13 +128,13 @@
     "/assets/splashscreens/iphonex_splash.png": "e355d7a7216db20ad6df262c39a3e94ce849c32e",
     "/assets/splashscreens/iphonexr_splash.png": "20bdced178b91f8f75ab06b54d7352f1845f9b38",
     "/assets/splashscreens/iphonexsmax_splash.png": "0b24bb7803c69b3d4582e4af72424a5fbe55bdcb",
-    "/assets/styles/colors.scss": "4000bb8040150c79c855b4da34e69856b2d3966c",
-    "/assets/styles/common.scss": "d45c20b75aa5840883958c1325456f4fa257fdd9",
+    "/assets/styles/colors.scss": "df3f8a71d6a9ade77df0331ee07f1097ac3cf8aa",
+    "/assets/styles/common.scss": "e0a8c6fc2210560bec95f351c04d1cf265cf03e1",
     "/gdgdevfest_webbanner.4ae6d8548de88c1aa666.jpg": "436df00d9d257a01b386434f1d750d31497c64cd",
     "/googlesans-regular.de87f08659cd390c16b0.ttf": "622d237be5cf8501b951a3abadb9440e65633adf",
-    "/index.html": "8ead0bcda8bb67e0da5c1466f56518a643141744",
-    "/main.d28cafcbf6a8d87031cd.js": "8f6bd4b541fed0d562dfab202afc9b3b4c0ddc85",
-    "/manifest.webmanifest": "07773931e9be86684dea5c589aa0e712df228653",
+    "/index.html": "aa5aa09cf4305549031ed97461356276661dc66b",
+    "/main.b7371e5fe70fd878a5e1.js": "4df7181951ed3e2261d676a1784f6b3a61f05f69",
+    "/manifest.webmanifest": "67299ac370775e3395a63f35000229dd9afbbdcd",
     "/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
     "/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/styles.9a2ff9e5da7a03b587f9.css": "1c4d2c4336430fd17c346c452027ba5311c3a042"
