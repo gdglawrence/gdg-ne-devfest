@@ -15,6 +15,7 @@ import { SponsorsBannerComponent } from './components/sponsors-banner/sponsors-b
 import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component';
 import { SpeakerCardComponent } from './components/speaker-card/speaker-card.component';
 import { FooterComponent } from './components/footer/footer.component'
+import { NavbarModule } from './components/navbar/navbar-module';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { FooterComponent } from './components/footer/footer.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NavbarModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
