@@ -1,0 +1,71 @@
+@import '../../../../assets/styles/colors.scss';
+@import '../../../../assets/styles/common.scss';
+
+:host {
+    position: unset;
+    top: unset;
+    left: unset;
+    height: unset;
+    width: 0px;
+    background-color: unset;
+    transition: unset;
+    overflow: unset;
+    opacity: unset;
+    touch-action: unset;
+    z-index: unset;
+}
+
+:host.drawer-open {
+    width: unset;
+}
+
+.navbar-drawer-container {
+    display: flex;
+
+    .navbar-items {
+        margin: 11px;
+        justify-content: flex-end;
+    }
+
+    .navbar-item {
+        color: $white;
+        font-weight: bold;
+        margin-left: 40px;
+    }    
+}
+
+@media screen and (max-width: 480px) {    
+    :host {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color: rgb(71, 76, 227);
+        transition: 0.3s ease;
+        overflow: hidden;
+        opacity: 0.3;
+        touch-action: none;
+        z-index: 1;
+    }
+
+    :host.drawer-open {
+        width: 70vw;
+        opacity: 1;
+    }
+
+    .navbar-items {
+        margin: 30px;
+        display: flex;
+        width: 150px;
+        flex-direction: column !important;
+        justify-content: flex-start;
+        z-index: 1;
+    }
+
+    .navbar-item {
+        color: $white;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}

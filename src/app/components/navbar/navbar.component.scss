@@ -1,0 +1,80 @@
+@import './../../../assets/styles/colors.scss';
+@import './../../../assets/styles/common.scss';
+
+.navbar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: #0005DF;
+
+    .navbar-container {
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .navbar-drawer-toggle {
+        display: none;
+    }    
+
+    .navbar-logo-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .navbar-logo {
+        height: 50px;
+        width: 100px;
+    }
+
+    .navbar-logo-text {
+        margin-top: 7px;
+        margin-left: 5px;
+        color: $white;
+        font-weight: bold;
+        font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .navbar {
+        height: 50px;
+        background: #0005DF;
+
+        .navbar-container {
+            display: flex;
+            padding: 10px;
+            justify-content: start;
+        }
+    
+        .navbar-drawer-toggle {
+            display: block;
+            margin-left: 20px;
+            height: 40px;
+            width: 40px;
+        }
+
+        .navbar-logo-container {
+            display: flex;
+            margin-left: 50px;
+            flex-direction: row;
+            margin-top: 5px;
+        }
+
+        .navbar-logo {
+            height: 20px;
+            width: 50px;
+        }
+    
+        .navbar-logo-text {
+            margin-top: 5px;
+            margin-left: 5px;
+            color: $white;
+            font-weight: bold;
+            font-size: small;
+        }    
+    }
+}

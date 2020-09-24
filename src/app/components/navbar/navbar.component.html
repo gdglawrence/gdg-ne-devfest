@@ -1,0 +1,16 @@
+<div class="navbar">
+    <div class="container">
+        <div class="navbar-container">
+            <div class="navbar-drawer-toggle" [class.drawer-open]="isDrawerOpened">
+                <img src="./assets/imgs/menu-24px.svg"  (click)="onToggleNavDrawer(!isDrawerOpened)"/>
+            </div>
+            <div class="navbar-logo-container">
+                <div class="navbar-logo">
+                    <img src="./assets/imgs/gdg_logo_color.svg" />
+                </div>
+                <div class="navbar-logo-text">GDG NorthEast</div>
+            </div>            
+            <navbar-drawer [isDrawerOpened]="isDrawerOpened" (drawerToggleEmitter)="onToggleNavDrawer($event)"></navbar-drawer>
+        </div>
+    </div>
+</div>
