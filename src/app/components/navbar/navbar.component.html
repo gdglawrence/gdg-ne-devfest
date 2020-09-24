@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-container">
             <div class="navbar-drawer-toggle" [class.drawer-open]="isDrawerOpened">
-                <img src="./assets/imgs/menu-24px.svg"  (click)="onToggleNavDrawer(!isDrawerOpened)"/>
+                <div class="material-icons" (click)="onToggleNavDrawer(!isDrawerOpened)">{{ isDrawerOpened ? 'clear' : 'dehaze' }}</div>
             </div>
             <div class="navbar-logo-container">
                 <div class="navbar-logo">
