@@ -1,0 +1,27 @@
+{
+    "startDate": "2020-10-31T10:00:00.000Z",
+    "endDate": "2020-10-31T15:00:00.000Z",
+    "googleCalStartDate": "20201031T140000Z",
+    "googleCalEndDate": "20201031T190000Z",
+    "title": "GDG NorthEast DevFest 2020",
+    "location": {
+        "description": "Online Event",
+        "lat": "",
+        "lng": ""
+    },
+    "details": "THIS IS A FREE ONLINE EVENT - GET YOUR TICKET IN THE LINK BELOW<br/><br/>https://gdg.community.dev/events/details/google-gdg-capital-region-presents-devfest-northeast-2020/<br/><br/>Join us for DevFest Northeast 2020!<br/><br/>It’s DevFest time! Our GDG communities have hosted great DevFests year after year and are keeping the momentum going in 2020.<br/><br/>This year GDGs of the Northeast Region will be joining forces to bring you the content you crave from speakers you love!<br/><br/>Join us for a socially connected but physically distant DevFest on Saturday October 31, 2020 from 10:00am - 3:00pm EST",
+    "registrationLink": "https://gdg.community.dev/events/details/google-gdg-capital-region-presents-devfest-northeast-2020/",
+    "gdgChapters": [
+        { "link": "https://gdg.community.dev/gdg-boston-android/", "name": "GDG Boston Android" },
+        { "link": "https://gdg.community.dev/gdg-bronx/", "name": "GDG Bronx" },
+        { "link": "https://gdg.community.dev/gdg-capital-region/", "name": "GDG Capital Region" },
+        { "link": "https://gdg.community.dev/gdg-cloud-nyc/", "name": "GDG Cloud NYC" },
+        { "link": "https://gdg.community.dev/gdg-cloud-philly/", "name": "GDG Cloud Philly" },
+        { "link": "https://gdg.community.dev/gdg-lawrence/", "name": "GDG Lawrence" },
+        { "link": "https://gdg.community.dev/gdg-manchester-nh/", "name": "GDG Manchester NH" },
+        { "link": "https://gdg.community.dev/gdg-new-brunswick/", "name": "GDG New Brunswick" },
+        { "link": "https://gdg.community.dev/gdg-new-haven/", "name": "GDG New Haven" },
+        { "link": "https://gdg.community.dev/gdg-north-jersey/", "name": "GDG North New Jersey" },
+        { "link": "https://gdg.community.dev/gdg-nyc/", "name": "GDG NYC" }
+    ]
+}

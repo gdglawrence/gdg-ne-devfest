@@ -1,0 +1,121 @@
+@import './../../../assets/styles/colors.scss';
+
+.gdg-schedule-session-wrapper {
+    display: flex;
+    margin-bottom: 24px;
+
+    .gdg-schedule-session-time {
+        font-size: 1.5em;
+        min-width: 200px;
+        background: #fbbc044d;
+        padding: 12px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+
+        .time-separator {
+            margin: 0px 8px;
+            display: inline-block;
+        }
+
+        .start-time span:last-child,
+        .end-time span:last-child {
+            font-size: 0.6em !important;
+            margin-left: 5px;
+        }
+    }
+
+    .gdg-schedule-session-container {
+        padding: 32px;
+        background: #FFF;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+        flex: 1;
+        border: 1px solid $gdg-devfest-yellow;
+        border-top: 16px solid $gdg-devfest-yellow;
+
+        .gdg-schedule-session-title {
+            font-size: 1.5em;
+            color: $gdg-devfest-blue;
+        }
+
+        .gdg-schedule-session-duration {
+            color: grey;
+            font-size: 0.8em;
+        }
+
+        .gdg-schedule-session-desc {
+            margin-top: 12px;
+            font-size: 0.9em;
+        }
+
+        .gdg-schedule-session-speaker-info {
+            border-top: 1px solid #ececec;
+            margin-top: 24px;
+
+            .speaker-card {
+                flex-direction: row;
+                justify-content: flex-start;
+                padding: 0 !important;
+                margin: 26px 0px 0px 0px !important;
+                border: none !important;
+                box-shadow: none !important;
+                text-align: left;
+
+                .speaker-card-corner-dot,
+                .speaker-card-bio,
+                .speaker-card-tech,
+                .speaker-card-social-media {
+                    display: none;
+                }
+
+                .speaker-card-img-wrapper {
+                    margin-right: 25px;
+
+                    .speaker-card-img {
+                        width: 64px;
+                        height: 64px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .gdg-devfest-schedule-container {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .gdg-schedule-session-wrapper{
+        margin: 24px 16px;
+        flex-direction: column;
+
+        .gdg-schedule-session-time {
+            width: 200px;
+        }
+    }
+
+    .gdg-schedule-session-wrapper:first-child {
+        margin-top: 0px !important;
+
+        .gdg-schedule-session-time {
+            margin-top: 0px !important;
+        }
+    }
+}
+
+// schedule specific tags
+.schedule-html-content {
+    h4 {
+        font-size: 1.25em;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    
+    p {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
