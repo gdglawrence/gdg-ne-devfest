@@ -5,10 +5,12 @@
                 <div class="material-icons" (click)="onToggleNavDrawer(!isDrawerOpened)">{{ isDrawerOpened ? 'clear' : 'dehaze' }}</div>
             </div>
             <div class="navbar-logo-container">
-                <div class="navbar-logo">
-                    <img src="./assets/imgs/gdg_logo_color.svg" />
-                </div>
-                <div class="navbar-logo-text">GDG NorthEast</div>
+                <a [routerLink]="['/home']">
+                    <div class="navbar-logo">
+                        <img src="./assets/imgs/gdg_logo_color.svg" />
+                    </div>
+                    <div class="navbar-logo-text">GDG NorthEast</div>
+                </a>
             </div>            
             <navbar-drawer [isDrawerOpened]="isDrawerOpened" (drawerToggleEmitter)="onToggleNavDrawer($event)"></navbar-drawer>
         </div>

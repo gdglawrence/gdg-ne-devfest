@@ -18,9 +18,11 @@
     }    
 
     .navbar-logo-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+        a {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+        }
     }
 
     .navbar-logo {
@@ -64,10 +66,12 @@
         }
 
         .navbar-logo-container {
-            display: flex;
-            margin-left: 80px;
-            flex-direction: row;
-            margin-top: 5px;
+            a {
+                display: flex;
+                margin-left: 80px;
+                flex-direction: row;
+                margin-top: 5px;
+            }
         }
 
         .navbar-logo {
