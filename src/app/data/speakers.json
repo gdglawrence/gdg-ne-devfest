@@ -25,7 +25,7 @@
         "skills" : "AI / ML",
         "img": "./assets/imgs/speakers/sara_robinson.jpg",
         "tech": "./assets/imgs/tech/ai_ml.png",
-        "bio": "Sara is a Developer Advocate on Google's Cloud Platform team, focusing on big data and machine learning. She helps developers build awesome apps through demos, online content, and events. Sara has a bachelor’s degree in Business and International Studies from Brandeis University. When she’s not programming, she can be found on a spin bike, listening to the Hamilton soundtrack, or finding the best ice cream in Boston.",
+        "bio": "Sara Robinson is a Developer Advocate for Google Cloud, focusing on machine learning. She inspires developers and data scientists to integrate ML into their applications through demos, online content, and events. Before Google, she was a Developer Advocate on the Firebase team. Sara has a Bachelor’s degree from Brandeis University. When she’s not writing code, she can be found on a spin bike or eating frosting.",
         "socialMedia": [
             {
                 "type": "linkedin",

@@ -18,6 +18,8 @@ import { FooterComponent } from './components/footer/footer.component'
 import { NavbarModule } from './components/navbar/navbar-module';
 import { SponsorsPageComponent } from './pages/sponsors-page/sponsors-page.component';
 import { AboutPageComponent } from './pages/about-page/about-page.component';
+import { SchedulePageComponent } from './pages/schedule-page/schedule-page.component';
+import { MarkedPipe } from './pipes/marked.pipe';
 
 @NgModule({
   declarations: [
@@ -33,7 +35,9 @@ import { AboutPageComponent } from './pages/about-page/about-page.component';
     SpeakerCardComponent,
     FooterComponent,
     SponsorsPageComponent,
-    AboutPageComponent
+    AboutPageComponent,
+    SchedulePageComponent,
+    MarkedPipe
   ],
   imports: [
     BrowserModule,

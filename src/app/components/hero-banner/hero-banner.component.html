@@ -5,12 +5,15 @@
                 <img src="./assets/imgs/devfest_main_logo.svg" />
             </div>
             <div class="hero-online-event">
-                <span class="material-icons">videocam</span><span>Online Event</span>
+                <span class="material-icons">videocam</span><span>{{ eventInfoData.location.description }}</span>
             </div>
             <div class="hero-date-container">
-                <div class="hero-date">Saturday, October 31, 2020</div>
-                <div class="hero-time">10AM - 3PM ET</div>
+                <div class="hero-date">{{ eventInfoData.startDate | date : 'fullDate' : 'utc' }}</div>
+                <div class="hero-time">{{ eventInfoData.startDate | date : 'h' : 'utc'}}{{ eventInfoData.startDate | date : 'aaa' : 'utc'}} - {{ eventInfoData.endDate | date : 'h' : 'utc'}}{{ eventInfoData.endDate | date : 'aaa' : 'utc'}} ET</div>
             </div>
+            <button class="rsvp-btn common-btn" (click)="onRSVP()">
+                <span class="material-icons">confirmation_number</span><span class="common-btn-label">RSVP HERE</span>
+            </button>
             <button class="save-date-btn common-btn" (click)="onSaveDateAction()">
                 <span class="material-icons">date_range</span><span class="common-btn-label">Save The Date</span>
             </button>

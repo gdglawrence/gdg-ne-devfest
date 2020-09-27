@@ -60,6 +60,18 @@
             padding: 10px 100px;
             font-size: 1.2em;
         }
+
+        .rsvp-btn {
+            background: $gdg-devfest-green;
+            color: #FFF;
+            font-size: 2em;
+            margin-bottom: 40px;
+            padding: 10px 75px;
+
+            .material-icons {
+                font-size: 1.15em;
+            }
+        }
     }
 }
 
@@ -80,6 +92,13 @@
             padding: 10px 30px !important;
             margin-bottom: 64px;
             font-size: 1em !important;
+            width: 100%;
+        }
+
+        .rsvp-btn {
+            font-size: 1.5em !important;
+            padding: 15px 46px !important;
+            width: 100%;
         }
     }
 }

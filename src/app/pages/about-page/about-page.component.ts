@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import * as aboutData from 'raw-loader!./../../data/about.md';
 
 @Component({
   selector: 'app-about-page',
@@ -9,7 +10,9 @@ export class AboutPageComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  aboutMarkdown : string = aboutData.default;
 
+  ngOnInit(): void {
+    console.log(this.aboutMarkdown);
+  }
 }
