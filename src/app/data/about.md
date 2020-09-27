@@ -8,6 +8,6 @@ The following is Google Develper Group's statement about Google's support of the
 
 ## GDG NorthEast
 
-GDG NorthEast is comprised of all the NorthEast GDG in the Eastern United States. This group is co-orangizing the Google Developer Group DevFest event virtually for the NorthEastern region in 2020.
+GDG NorthEast is comprised of all the NorthEast GDG in the Eastern United States. This group is co-orangizing the Google Developer Group DevFest event virtually for the NorthEastern region in 2020. The DevFest is carefully crafted for you by your local GDG community to bring awesome speakers, great topics, and lots of fun! While no two events will be exactly alike, each GDG DevFest will, at its core, be powered by a shared belief that when developers come together to exchange ideas, amazing things can happen! The GDG community organizers also seek event sponsors to provide swags for event attendees.
 
 GDG Leads are community developers who volunteer their personal time in supporting their local GDG community to share and to learn Google technologies with their community developers.
