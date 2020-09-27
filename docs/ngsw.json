@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1600727561188,
+  "timestamp": 1601224238038,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,11 +12,11 @@
       },
       "urls": [
         "/index.html",
-        "/main.b7371e5fe70fd878a5e1.js",
+        "/main.aaac601931ddd8e23580.js",
         "/manifest.webmanifest",
         "/polyfills.a4021de53358bb0fec14.js",
         "/runtime.e227d1a0e31cbccbf8ec.js",
-        "/styles.9a2ff9e5da7a03b587f9.css"
+        "/styles.7815e58ea9bddff710af.css"
       ],
       "patterns": []
     },
@@ -55,9 +55,14 @@
         "/assets/imgs/speakers/frank_van_puffelen.jpg",
         "/assets/imgs/speakers/sara_robinson.jpg",
         "/assets/imgs/speakers/scott_stoll.jpg",
+        "/assets/imgs/sponsors/Dan_Sullivan.svg",
+        "/assets/imgs/sponsors/Develop_Her_Solo.png",
+        "/assets/imgs/sponsors/ROI-logo.png",
         "/assets/imgs/sponsors/gdg.png",
         "/assets/imgs/sponsors/google.png",
         "/assets/imgs/sponsors/iam.png",
+        "/assets/imgs/sponsors/oreilly_logo_mark_red.svg",
+        "/assets/imgs/sponsors/practicum_logo.svg",
         "/assets/imgs/sponsors/wtm.png",
         "/assets/imgs/tech/ai_ml.png",
         "/assets/imgs/tech/firebase.png",
@@ -110,9 +115,14 @@
     "/assets/imgs/speakers/frank_van_puffelen.jpg": "ad4ad85337b4721ba9a96f1a9c30ab767b3256be",
     "/assets/imgs/speakers/sara_robinson.jpg": "4cc754eba2fe8b2852cb239596d492cd4df0a1d9",
     "/assets/imgs/speakers/scott_stoll.jpg": "65ecadcaebd88374a7640f67011774dd25546bfb",
+    "/assets/imgs/sponsors/Dan_Sullivan.svg": "be77838e486bf376bc29414fc09c37a822fcec85",
+    "/assets/imgs/sponsors/Develop_Her_Solo.png": "068d77298f73662da8cc093691009f430f03653b",
+    "/assets/imgs/sponsors/ROI-logo.png": "bcba1575c98473cbf14327120dbeb97192a1cc2d",
     "/assets/imgs/sponsors/gdg.png": "b58c0c86346dfa4256550417eaa702512c3eac92",
     "/assets/imgs/sponsors/google.png": "15c1eed81e750d1c886e1de386b90fddafa8b944",
     "/assets/imgs/sponsors/iam.png": "1a028648502811cdf1c33d906fcb01930e008c60",
+    "/assets/imgs/sponsors/oreilly_logo_mark_red.svg": "4facd74ba0e48de2de71f8cd11d745de3cd3cf87",
+    "/assets/imgs/sponsors/practicum_logo.svg": "60d829612271d82c90552b60b65d8a398944026e",
     "/assets/imgs/sponsors/wtm.png": "4055dd6be9d19bb6d420a797ab6090e0a96f6833",
     "/assets/imgs/tech/ai_ml.png": "9d76bb99d8cde4600593b095626432fa5d47912a",
     "/assets/imgs/tech/firebase.png": "2c3f9f60ff9d8775ad2e575c2885ef992c400b17",
@@ -128,16 +138,16 @@
     "/assets/splashscreens/iphonex_splash.png": "e355d7a7216db20ad6df262c39a3e94ce849c32e",
     "/assets/splashscreens/iphonexr_splash.png": "20bdced178b91f8f75ab06b54d7352f1845f9b38",
     "/assets/splashscreens/iphonexsmax_splash.png": "0b24bb7803c69b3d4582e4af72424a5fbe55bdcb",
-    "/assets/styles/colors.scss": "df3f8a71d6a9ade77df0331ee07f1097ac3cf8aa",
+    "/assets/styles/colors.scss": "7dc1412e4b8bba5f16a7d1a426d1c9d0b35e519d",
     "/assets/styles/common.scss": "e0a8c6fc2210560bec95f351c04d1cf265cf03e1",
     "/gdgdevfest_webbanner.4ae6d8548de88c1aa666.jpg": "436df00d9d257a01b386434f1d750d31497c64cd",
     "/googlesans-regular.de87f08659cd390c16b0.ttf": "622d237be5cf8501b951a3abadb9440e65633adf",
-    "/index.html": "aa5aa09cf4305549031ed97461356276661dc66b",
-    "/main.b7371e5fe70fd878a5e1.js": "4df7181951ed3e2261d676a1784f6b3a61f05f69",
+    "/index.html": "cae8fb39791668eb588ce3da93cf597c7fa25d0a",
+    "/main.aaac601931ddd8e23580.js": "7d26aff6c86052dae37f977df1a721eb9b3b425d",
     "/manifest.webmanifest": "67299ac370775e3395a63f35000229dd9afbbdcd",
     "/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
     "/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.9a2ff9e5da7a03b587f9.css": "1c4d2c4336430fd17c346c452027ba5311c3a042"
+    "/styles.7815e58ea9bddff710af.css": "421f4e0beb8e92208f0a6a2fe277bcd2c974517e"
   },
   "navigationUrls": [
     {
