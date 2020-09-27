@@ -21,7 +21,7 @@
     <div class="speaker-card-social-media">
         <ng-container *ngFor="let socialmedia of speaker.socialMedia">
             <div *ngIf="socialmedia.link != ''" class="speaker-social-media">
-                <a href="{{ socialmedia.link }}">
+                <a href="{{ socialmedia.link }}" target="_blank">
                     <i class="fab fa-{{ socialmedia.type }}"></i>
                 </a>
             </div>

@@ -2,25 +2,25 @@
   {
     "id" : 1,
     "name" : "Google",
-    "link" : "",
+    "link" : "https://www.google.com/",
     "img" :  "./assets/imgs/sponsors/google.png"
   },
   {
     "id": 2,
     "name" : "Google Developer Group",
-    "link" : "",
+    "link" : "https://developers.google.com/",
     "img" : "./assets/imgs/sponsors/gdg.png"
   },
   {
     "id" : 3,
     "name" : "Women Techmakers",
-    "link" : "",
+    "link" : "https://www.womentechmakers.com/",
     "img" :  "./assets/imgs/sponsors/wtm.png"
   },
   {
     "id" : 4,
     "name" : "I Am Remarkable",
-    "link" : "",
+    "link" : "https://iamremarkable.withgoogle.com/",
     "img":  "./assets/imgs/sponsors/iam.png"
   },
   {

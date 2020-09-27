@@ -6,7 +6,7 @@
                 <ng-container *ngFor="let sponsor of sponsors">
                     <div class="sponsor-banner-card">
                         <div class="sponsor-img">
-                            <img [src]="sponsor.img" />
+                            <a [href]="sponsor.link" target="_blank"><img [src]="sponsor.img" /></a>
                         </div>
                         <!-- <div class="sponsor-name">{{ sponsor.name }}</div> -->
                         <!-- <div class="sponsor-company">{{ sponsor.company }}</div> -->
