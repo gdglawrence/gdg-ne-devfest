@@ -1,0 +1,32 @@
+<div class="speakers-page">
+    <div class="container">
+        <h1 class="common-banner-title">Schedule</h1>
+        <div class="gdg-devfest-schedule-container">
+            <ng-container *ngFor="let session of schedule.sessions">
+                <div class="gdg-schedule-session-wrapper">
+                    <div class="gdg-schedule-session-time">
+                        <span class="start-time">
+                            <span>{{ session.startTime | date: 'h' : 'utc'  }}:{{ session.startTime | date: 'mm' : 'utc'  }}</span>
+                            <span>{{ session.startTime | date: 'aaa' : 'utc'  }}</span>
+                        </span>
+                        <span class="time-separator"> / </span>
+                        <span class="end-time">
+                            <span>{{ session.endTime | date: 'h' : 'utc'  }}:{{ session.endTime | date: 'mm' : 'utc'  }}</span>
+                            <span>{{ session.endTime | date: 'aaa' : 'utc'  }}</span>
+                        </span>
+                    </div>
+                    <div class="gdg-schedule-session-container">
+                        <div class="gdg-schedule-session-title">{{ session.title }}</div>
+                        <div class="gdg-schedule-session-duration">{{ session.duration }}</div>
+                        <div class="gdg-schedule-session-desc" *ngIf="session.description !== ''" [innerHTML]="session.description"></div>
+                        <div class="gdg-schedule-session-speaker-info" *ngIf="session.speakers && session.speakers.length > 0">
+                            <ng-container *ngFor="let speaker of session.speakers">
+                                <app-speaker-card [speaker]="speaker"></app-speaker-card>
+                            </ng-container>
+                        </div>
+                    </div>
+                </div>
+            </ng-container>
+        </div>
+    </div>
+</div>

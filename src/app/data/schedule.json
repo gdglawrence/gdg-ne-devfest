@@ -1,0 +1,67 @@
+{
+    "sessions": [
+        {
+            "startTime": "2020-10-31T10:00:00.000Z",
+            "endTime": "2020-10-31T10:15:00.000Z",
+            "title": "GDG DevFest Northeast 2020 / Introductions and Welcome",
+            "duration": "",
+            "description": "",
+            "speakerIds": [],
+            "speakers": []
+        },
+        {
+            "startTime": "2020-10-31T10:15:00.000Z",
+            "endTime": "2020-10-31T11:00:00.000Z",
+            "duration": "",
+            "title": "Baking with Machine Learning Demo",
+            "description": "Learn how Sara trained a machine learning model that predicts what you are trying to bake - a cake, a bread or a cookie.<br/>See a demo how the model works in a web app, all done using Google Cloud Platform's services:<ul><li>TensorFlow and Keras</li><li>AI Platform Predictions</li><li>Cloud Storage</li><li>Cloud Functions</li><li>Firebase Hosting</li></ul><br/>You can try Sara's ML model for yourself and even invent new delicious recipes!",
+            "speakerIds": [2],
+            "speakers": []
+        },
+        {
+            "startTime": "2020-10-31T11:00:00.000Z",
+            "endTime": "2020-10-31T12:00:00.000Z",
+            "duration": "",
+            "title": "Puf will take you From zero to app: live-coding with Firebase and StackBlitz on the web",
+            "description": "Getting started with web development has never been easier. In this talk Frank will live code two complete web apps from scratch, without copy/pasting any snippets. Both apps will be built on StackBlitz and will use Firebase for their back-end services.",
+            "speakerIds": [3],
+            "speakers": []
+        },
+        {
+            "startTime": "2020-10-31T12:00:00.000Z",
+            "endTime": "2020-10-31T12:30:00.000Z",
+            "duration": "",
+            "title": "Break",
+            "description": "",
+            "speakers": [],
+            "speakerIds": []
+        },
+        {
+            "startTime": "2020-10-31T12:30:00.000Z",
+            "endTime": "2020-10-31T13:30:00.000Z",
+            "duration": "",
+            "title": "TBD",
+            "description": "",
+            "speakers": [],
+            "speakerIds": [4]
+        },
+        {
+            "startTime": "2020-10-31T13:30:00.000Z",
+            "endTime": "2020-10-31T14:30:00.000Z",
+            "duration": "",
+            "title": "With Automated Machine Learning, Is Everyone Now a Machine Learning Engineer?",
+            "description": "No, not even close. Automated machine learning tools, like Google Cloud’s AutoML only automate a fraction of the work need to build quality, production-grade machine learning models. This presentation outlines what automated ML does well, like choosing an algorithm and optimizing hyperparameters, and what it does not do so well, such as formulating a business problem amenable to ML. The talk will focus on four areas where developers familiar with machine learning are needed: formulating problems, engineering data, evaluating the fairness of models, and monitoring and maintaining models in production.",
+            "speakers": [],
+            "speakerIds": [1]
+        },
+        {
+            "startTime": "2020-10-31T14:30:00.000Z",
+            "endTime": "2020-10-31T15:00:00.000Z",
+            "duration": "",
+            "title": "Raffle / Wrap-up / Closing Remarks",
+            "description": "<div class='schedule-html-content'><h2>Prizes<h2><h4><a href='https://www.oreilly.com/' target='_blank'>O’Reilly</a></h4><p>O’Reilly offers 10 ebooks/books for our raffle and to all attendees 30 days full access to their online learning platform ($50 value each).</p><h4><a href='https://www.roitraining.com/' target='_blank'>ROI Training</a></h4><p>ROI Training offers 4 On Demand Google Cloud Certification training: ACE/PCE ($500 value each) vouchers and a $500 Google Play Card for our raffle.</p><h4><a href='https://www.dansullivanlearning.com/' target='_blank'>Dan Sullivan</a></h4><p>Dan Sullivan will provide free access to 3 Associate Cloud Engineer and 3 Professional Data Engineer courses ($50 value each).</p><h4><a href='https://practicum.yandex.com/' target='_blank'>Practicum by Yandex</a></h4><p>Few 100% Scholarships to Practicum by Yandex bootcamps to choose from: Web Developer, Data Scientist, Data Analyst.</p><h4><a href='https://developher.com/' target='_blank'>DevelopHer</a></h4><p>DevelopHer and Lauren Hasson are piloting a new, ground-breaking program to get underpaid WOMEN IN TECH access to its AWARD-WINNING salary negotiation program for no upfront investment as part of its new and innovative income-share program!</p></div>",
+            "speakers": [],
+            "speakerIds": []
+        }
+    ]
+}
