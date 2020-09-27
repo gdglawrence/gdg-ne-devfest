@@ -50,7 +50,7 @@
   {
     "id" : 9,
     "name" : "Dan Sullivan",
-    "img" : "",
+    "img" : "./assets/imgs/sponsors/Dan_Sullivan.svg",
     "link" : "https://www.dansullivanlearning.com/"
   }
 ]
