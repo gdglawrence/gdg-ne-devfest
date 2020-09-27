@@ -1,5 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-
+import { Sponsor } from '../../models/sponsor';
+import sponsorsData from '../../data/sponsors.json';
 @Component({
   selector: 'app-gdg-sponsors-banner',
   templateUrl: './sponsors-banner.component.html',
@@ -9,28 +10,7 @@ import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 export class SponsorsBannerComponent implements OnInit {
 
     // TODO: dynamic, coming from somewhere
-    sponsors = [
-      {
-        name: 'Google',
-        link: '',
-        img:  './assets/imgs/sponsors/google.png'
-      },
-      {
-        name: 'Google Developer Group',
-        link: '',
-        img:  './assets/imgs/sponsors/gdg.png'
-      },
-      {
-        name: 'Women Techmakers',
-        link: '',
-        img:  './assets/imgs/sponsors/wtm.png'
-      },
-      {
-        name: 'I Am Remarkable',
-        link: '',
-        img:  './assets/imgs/sponsors/iam.png'
-      }
-    ];
+    sponsors: Sponsor[] = sponsorsData;
 
     constructor() { }
 
