@@ -16,6 +16,8 @@ import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.compo
 import { SpeakerCardComponent } from './components/speaker-card/speaker-card.component';
 import { FooterComponent } from './components/footer/footer.component'
 import { NavbarModule } from './components/navbar/navbar-module';
+import { SponsorsPageComponent } from './pages/sponsors-page/sponsors-page.component';
+import { AboutPageComponent } from './pages/about-page/about-page.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,9 @@ import { NavbarModule } from './components/navbar/navbar-module';
     SpeakersPageComponent,
     SponsorsBannerComponent,
     SpeakerCardComponent,
-    FooterComponent
+    FooterComponent,
+    SponsorsPageComponent,
+    AboutPageComponent
   ],
   imports: [
     BrowserModule,

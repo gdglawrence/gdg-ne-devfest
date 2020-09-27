@@ -1,0 +1,56 @@
+[
+  {
+    "id" : 1,
+    "name" : "Google",
+    "link" : "",
+    "img" :  "./assets/imgs/sponsors/google.png"
+  },
+  {
+    "id": 2,
+    "name" : "Google Developer Group",
+    "link" : "",
+    "img" : "./assets/imgs/sponsors/gdg.png"
+  },
+  {
+    "id" : 3,
+    "name" : "Women Techmakers",
+    "link" : "",
+    "img" :  "./assets/imgs/sponsors/wtm.png"
+  },
+  {
+    "id" : 4,
+    "name" : "I Am Remarkable",
+    "link" : "",
+    "img":  "./assets/imgs/sponsors/iam.png"
+  },
+  {
+    "id" : 5,
+    "name" : "O’Reilly",
+    "img" : "./assets/imgs/sponsors/oreilly_logo_mark_red.svg",
+    "link" : "https://www.oreilly.com/"
+  },
+  {
+    "id" : 6,
+    "name" : "ROI Training",
+    "img" : "./assets/imgs/sponsors/ROI-logo.png",
+    "link" : "https://www.roitraining.com/"
+  },
+  {
+    "id" : 7,
+    "name" : "Practicum by Yandex",
+    "img" : "./assets/imgs/sponsors/Practicum_Logo.png",
+    "link" : "https://practicum.yandex.com/"
+  },
+  {
+    "id" : 8,
+    "name" : "DevelopHer",
+    "img" : "./assets/imgs/sponsors/Develop_Her_Solo.png",
+    "link" : "https://developher.com/"
+  },
+  {
+    "id" : 9,
+    "name" : "Dan Sullivan",
+    "img" : "",
+    "link" : "https://www.dansullivanlearning.com/"
+  }
+]
