@@ -40,8 +40,8 @@
             "startTime": "2020-10-31T12:30:00.000Z",
             "endTime": "2020-10-31T13:30:00.000Z",
             "duration": "",
-            "title": "TBD",
-            "description": "",
+            "title": "RenderFlex children have non-zero flex but incoming height constraints are unbounded",
+            "description": "You are not crazy. You are not alone. We all have nightmares about seeing these words in the Red Screen of Death. It's like quicksand, the more you fight the deeper you sink, and the worse it gets.\"I'm from the government, I'm here to help.\" The trick to understanding why this happens is to understand a few different things, and then think about them together. Flexibles, flex, FlexFit, double.infinity, and Constraints can all come together to produce a reactive UI that works beautifully or a Red Screen of Death that will haunt your nightmares. In this talk, I'll help you learn how to kill the RenderFlex Boogeyman, and be just like John Wick.",
             "speakers": [],
             "speakerIds": [4]
         },
@@ -59,7 +59,7 @@
             "endTime": "2020-10-31T15:00:00.000Z",
             "duration": "",
             "title": "Raffle / Wrap-up / Closing Remarks",
-            "description": "<div class='schedule-html-content'><h2>Prizes<h2><h4><a href='https://www.oreilly.com/' target='_blank'>O’Reilly</a></h4><p>O’Reilly offers 10 ebooks/books for our raffle and to all attendees 30 days full access to their online learning platform ($50 value each).</p><h4><a href='https://www.roitraining.com/' target='_blank'>ROI Training</a></h4><p>ROI Training offers 4 On Demand Google Cloud Certification training: ACE/PCE ($500 value each) vouchers and a $500 Google Play Card for our raffle.</p><h4><a href='https://www.dansullivanlearning.com/' target='_blank'>Dan Sullivan</a></h4><p>Dan Sullivan will provide free access to 3 Associate Cloud Engineer and 3 Professional Data Engineer courses ($50 value each).</p><h4><a href='https://practicum.yandex.com/' target='_blank'>Practicum by Yandex</a></h4><p>Few 100% Scholarships to Practicum by Yandex bootcamps to choose from: Web Developer, Data Scientist, Data Analyst.</p><h4><a href='https://developher.com/' target='_blank'>DevelopHer</a></h4><p>DevelopHer and Lauren Hasson are piloting a new, ground-breaking program to get underpaid WOMEN IN TECH access to its AWARD-WINNING salary negotiation program for no upfront investment as part of its new and innovative income-share program!</p></div>",
+            "description": "<div class='schedule-html-content'><h2>Prizes<h2><h4><a href='https://www.oreilly.com/' target='_blank'>O’Reilly</a></h4><p>O’Reilly offers 10 ebooks/books for our raffle and to all attendees 30 days full access to their online learning platform ($50 value each).</p><h4><a href='https://www.roitraining.com/' target='_blank'>ROI Training</a></h4><p>ROI Training offers 4 On Demand Google Cloud Certification training: ACE/PCE ($500 value each) vouchers and a $500 Google Play Card for our raffle.</p><h4><a href='https://www.dansullivanlearning.com/' target='_blank'>Dan Sullivan</a></h4><p>Dan Sullivan will provide free access to 3 Associate Cloud Engineer and 3 Professional Data Engineer courses ($50 value each).</p><h4><a href='https://practicum.yandex.com/' target='_blank'>Practicum by Yandex</a></h4><p>Few 100% Scholarships to Practicum by Yandex bootcamps to choose from: Web Developer, Data Scientist, Data Analyst.</p><h4><a href='https://www.wellframe.com/' target='_blank'>Wellframe</a></h4><p>Wellframe offers $50 Amazon cards for our raffle.</p></div>",
             "speakers": [],
             "speakerIds": []
         }

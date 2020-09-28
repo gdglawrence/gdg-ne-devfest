@@ -52,5 +52,17 @@
     "name" : "Dan Sullivan",
     "img" : "./assets/imgs/sponsors/Dan_Sullivan.svg",
     "link" : "https://www.dansullivanlearning.com/"
+  },
+  {
+    "id" : 10,
+    "name" : "Wellframe",
+    "img" : "./assets/imgs/sponsors/wellframe_logo.jpg",
+    "link" : "https://www.wellframe.com"
+  },
+  {
+    "id" : 11,
+    "name" : "NYTL",
+    "img" : "./assets/imgs/sponsors/nytl.png",
+    "link" : "https://www.nytechloop.org"
   }
 ]
