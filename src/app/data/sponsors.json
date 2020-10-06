@@ -64,5 +64,11 @@
     "name" : "NYTL",
     "img" : "./assets/imgs/sponsors/nytl.png",
     "link" : "https://www.nytechloop.org"
+  },
+  {
+    "id" : 12,
+    "name" : "JetBrains",
+    "img" : "./assets/imgs/sponsors/jetbrains.png",
+    "link" : "https://www.jetbrains.com/"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1601749473449,
+  "timestamp": 1601943254957,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main.aa2efa226cf2977b976d.js",
+        "/main.30df87f83a5e8ca31753.js",
         "/manifest.webmanifest",
         "/polyfills.a4021de53358bb0fec14.js",
         "/runtime.e227d1a0e31cbccbf8ec.js",
@@ -61,6 +61,7 @@
         "/assets/imgs/sponsors/gdg.png",
         "/assets/imgs/sponsors/google.png",
         "/assets/imgs/sponsors/iam.png",
+        "/assets/imgs/sponsors/jetbrains.png",
         "/assets/imgs/sponsors/nytl.png",
         "/assets/imgs/sponsors/oreilly_logo_mark_red.svg",
         "/assets/imgs/sponsors/practicum_logo.svg",
@@ -123,6 +124,7 @@
     "/assets/imgs/sponsors/gdg.png": "b58c0c86346dfa4256550417eaa702512c3eac92",
     "/assets/imgs/sponsors/google.png": "15c1eed81e750d1c886e1de386b90fddafa8b944",
     "/assets/imgs/sponsors/iam.png": "1a028648502811cdf1c33d906fcb01930e008c60",
+    "/assets/imgs/sponsors/jetbrains.png": "f98786196cfcf826310dde2a88549b58eba7d615",
     "/assets/imgs/sponsors/nytl.png": "7f9b189f0a99768b6cf88c55d8cbf8c454ab7e37",
     "/assets/imgs/sponsors/oreilly_logo_mark_red.svg": "4facd74ba0e48de2de71f8cd11d745de3cd3cf87",
     "/assets/imgs/sponsors/practicum_logo.svg": "60d829612271d82c90552b60b65d8a398944026e",
@@ -146,8 +148,8 @@
     "/assets/styles/common.scss": "e0a8c6fc2210560bec95f351c04d1cf265cf03e1",
     "/gdgdevfest_webbanner.4ae6d8548de88c1aa666.jpg": "436df00d9d257a01b386434f1d750d31497c64cd",
     "/googlesans-regular.de87f08659cd390c16b0.ttf": "622d237be5cf8501b951a3abadb9440e65633adf",
-    "/index.html": "30f268a37813ddeff9d10970354c2085531b4404",
-    "/main.aa2efa226cf2977b976d.js": "14f42ef9ba243f31a2821875f5a63965741b02d6",
+    "/index.html": "523bd0417a8efc31de2ea4d0a6fb08df876a2666",
+    "/main.30df87f83a5e8ca31753.js": "8a1114d6d37c2059cf7c83caa21e78da54c1d5d7",
     "/manifest.webmanifest": "67299ac370775e3395a63f35000229dd9afbbdcd",
     "/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
     "/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
