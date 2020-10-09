@@ -62,21 +62,6 @@
                         "link": ""
                     }
                 ]
-            },
-            {
-                "id": 4,
-                "name": "Altemar Meledez",
-                "img": "./assets/imgs/organizers/gdg-lawrence/altemar.jpg",
-                "socialMedia": [
-                    {
-                        "type": "linkedin",
-                        "link": ""
-                    },
-                    {
-                        "type": "twitter",
-                        "link": ""
-                    }
-                ]
             }
         ]
     }
