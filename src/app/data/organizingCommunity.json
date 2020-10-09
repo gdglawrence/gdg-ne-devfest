@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "communityName": "GDG Lawrence"
+    },
+    {
+        "id": 2,
+        "communityName": "GDG Capital Hill"
+    },
+    {
+        "id": 3,
+        "communityName": "GDG New York"
+    },
+    {
+        "id": 4,
+        "communityName": "GDG Bronx"
+    },
+    {
+        "id": 5,
+        "communityName": "GDG Manchester"
+    },
+    {
+        "id": 6,
+        "communityName": "GDG Boston"
+    }
+]

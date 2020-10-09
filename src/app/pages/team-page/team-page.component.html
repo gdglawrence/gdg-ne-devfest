@@ -2,11 +2,25 @@
     <h1 class="common-banner-title">Organizing Team</h1>
     <div class="team-banner" *ngFor="let community of organizers">
         <div class="container">
-            <h2 class="team-title">{{community.communityName}}</h2>
-            <div class="teams-list">
+            <div class="community-name" >
+                <img class="team-logo" src="../assets/imgs/gdg_logo_color.svg" alt="{{community.communityName}">
+                <h2 class="team-title">{{community.communityName}}</h2>
+            </div>
+            <div class="team-member-list">
                 <ng-container *ngFor="let member of community.team">
                     <app-speaker-card [speaker]="member"></app-speaker-card>
                 </ng-container>
+            </div>
+        </div>
+    </div>
+
+    <div class="team-banner" *ngIf="organizingCommunity?.length > 0">
+        <div class="container">
+            <div class="team-list">
+                <div class="community-name" *ngFor="let orgCommunity of organizingCommunity">
+                    <img class="team-logo" src="../assets/imgs/gdg_logo_color.svg" alt="{{orgCommunity.communityName}">
+                    <h2 class="team-title">{{orgCommunity.communityName}}</h2>
+                </div>
             </div>
         </div>
     </div>

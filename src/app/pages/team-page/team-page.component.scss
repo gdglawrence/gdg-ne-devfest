@@ -6,26 +6,38 @@
     h1 {
         padding: 30px 0px 10px 0px;
     }
+    .team-banner {
+        padding-bottom: 30px;
+    }
 }
 
 ::ng-deep .speaker-card .speaker-card-name {
-    font-size: 1.2em !important;
+    font-size: 1.05em !important;
 }
+
 ::ng-deep .speaker-card {
     padding: 10px !important;
 }
 
 .team-title {
-    color: grey;
-    font-size: 1.5em;
-    padding: 30px 15px 0px 15px;
+    width: 100%;
+    text-align: left;
     font-weight: 100;
+    color: grey;
+    font-size: 1.6em;
+    padding: 0px 0px 0px 11px;
 }
 
-.team-banner:nth-child(odd) {background: #f8f9fa}
-.team-banner:nth-child(even) {background: #ffffff}
+.community-name {
+    display: flex;
+    align-items: stretch;
+    padding: 20px 15px 0px 15px;
+    img {
+        width: 4%;
+    }
+}
 
-.container .teams-list {
+.container .team-member-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-content: center;
@@ -33,14 +45,75 @@
     text-align: center;
 }
 
+.container .team-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: left;
+    text-align: center;
+    .community-name {
+        display: flex;
+        align-items: stretch;
+        padding: 20px 15px 20px 15px;
+        img {
+            width: 19%;
+        }
+    }
+    .team-title {
+        text-align: left;
+        font-weight: 100;
+        color: grey;
+        font-size: 1.6em;
+        padding: 0px 0px 0px 11px;
+    }
+}
+
+
 @media screen and (max-width: 1250px) {
-    .teams-list {
+    .container .team-member-list,
+    .container .team-list {
         grid-template-columns: 1fr 1fr 1fr !important;
+    }
+
+    .community-name {
+        img {
+            width: 6%;
+        }
+    }
+
+    .team-title {
+        width: 100%;
+        font-size: 1.5em;
+    }
+
+    .container .team-list {
+        .team-title {
+            font-size: 1.2em;
+        }
     }
 }
 
 @media screen and (max-width: 480px) {
-    .teams-list {
+    .container .team-member-list,
+    .container .team-list {
         grid-template-columns: 1fr 1fr !important;
     }
+
+    .community-name {
+        img {
+            width: 10%;
+        }
+    }
+
+    .team-title {
+        width: 100%;
+        font-size: 1.2em;
+    }
+
+    .container .team-list {
+        .team-title {
+            font-size: 0.8em;
+        }
+    }
 }
+
