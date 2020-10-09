@@ -12,13 +12,13 @@
     
     <div>
         <div class="speaker-card-name">{{ speaker.name }}</div>
-        <div class="speaker-card-title">{{ speaker.title }}</div>
+        <div class="speaker-card-title" *ngIf="speaker.title" >{{ speaker.title }}</div>
     </div>
-    <div class="speaker-card-tech">
+    <div class="speaker-card-tech" *ngIf="speaker.tech" >
         <img [src]="speaker.tech" />
     </div>
-    <div class="speaker-card-bio">{{ speaker.bio }}</div>
-    <div class="speaker-card-social-media">
+    <div class="speaker-card-bio" *ngIf="speaker.bio" >{{ speaker.bio }}</div>
+    <div class="speaker-card-social-media" *ngIf="speaker.socialMedia" >
         <ng-container *ngFor="let socialmedia of speaker.socialMedia">
             <div *ngIf="socialmedia.link != ''" class="speaker-social-media">
                 <a href="{{ socialmedia.link }}" target="_blank">

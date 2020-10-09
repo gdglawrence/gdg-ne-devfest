@@ -1,0 +1,14 @@
+<div class="team-page">
+    <h1 class="common-banner-title">Organizing Team</h1>
+    <div class="team-banner" *ngFor="let community of organizers">
+        <div class="container">
+            <h2 class="team-title">{{community.communityName}}</h2>
+            <div class="teams-list">
+                <ng-container *ngFor="let member of community.team">
+                    <app-speaker-card [speaker]="member"></app-speaker-card>
+                </ng-container>
+            </div>
+        </div>
+    </div>
+</div>
+

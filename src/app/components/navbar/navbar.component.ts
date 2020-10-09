@@ -10,7 +10,7 @@ export class NavbarComponent implements OnInit {
 
   @Output()
   drawerToggleEmitter: EventEmitter<boolean> = new EventEmitter<boolean>();
-  
+
   constructor() { }
 
   ngOnInit(): void {

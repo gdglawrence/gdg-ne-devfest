@@ -20,6 +20,7 @@ import { SponsorsPageComponent } from './pages/sponsors-page/sponsors-page.compo
 import { AboutPageComponent } from './pages/about-page/about-page.component';
 import { SchedulePageComponent } from './pages/schedule-page/schedule-page.component';
 import { MarkedPipe } from './pipes/marked.pipe';
+import { TeamPageComponent } from './pages/team-page/team-page.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { MarkedPipe } from './pipes/marked.pipe';
     SponsorsPageComponent,
     AboutPageComponent,
     SchedulePageComponent,
-    MarkedPipe
+    MarkedPipe,
+    TeamPageComponent
   ],
   imports: [
     BrowserModule,

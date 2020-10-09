@@ -1,6 +1,6 @@
 export interface Sponsor {
-    id: number,
-    name: string,
-    img: string,
-    link: string
+    id: number;
+    name: string;
+    img: string;
+    link: string;
 }

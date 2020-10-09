@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "communityName": "GDG Lawrence",
+        "team": [
+            {
+                "id": 1,
+                "name": "Roman Jaquez",
+                "img": "./assets/imgs/organizers/gdg-lawrence/roman.jpg",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Kevin Quan",
+                "img": "./assets/imgs/organizers/gdg-lawrence/kevin.jpg",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Lionel A. Dsouza",
+                "img": "./assets/imgs/organizers/gdg-lawrence/lionel.jpg",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Altemar Meledez",
+                "img": "./assets/imgs/organizers/gdg-lawrence/altemar.jpg",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Altemar Meledez",
+                "img": "./assets/imgs/organizers/gdg-lawrence/altemar.jpg",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    }
+]

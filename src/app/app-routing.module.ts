@@ -5,6 +5,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { SchedulePageComponent } from './pages/schedule-page/schedule-page.component';
 import { SpeakersPageComponent } from './pages/speakers-page/speakers-page.component';
 import { SponsorsPageComponent } from './pages/sponsors-page/sponsors-page.component';
+import { TeamPageComponent } from './pages/team-page/team-page.component';
 
 const routes: Routes = [{
   component: HomePageComponent,
@@ -20,11 +21,15 @@ const routes: Routes = [{
 },
 {
   component: SponsorsPageComponent,
-  path: "sponsors"
+  path: 'sponsors'
 },
 {
   component: AboutPageComponent,
-  path: "about"
+  path: 'about'
+},
+{
+  component: TeamPageComponent,
+  path: 'team'
 },
 {
   path: '',
