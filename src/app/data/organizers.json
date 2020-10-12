@@ -1,6 +1,219 @@
 [
     {
         "id": 1,
+        "communityName": "GDG Bronx",
+        "team": [
+            {
+                "id": 1,
+                "name": "Eva-Maria Sofianos",
+                "img": "./assets/imgs/organizers/gdg-bronx/eva_sofianos.jpg",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Hendrix Tavarez",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Rafael Gonzalez",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Carol Gonz",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Scott Tyler",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "communityName": "GDG Boston Android",
+        "team": [
+            {
+                "id": 1,
+                "name": "Elizabeth Mezias",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Jinn Kim",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Varsha",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "communityName": "GDG Capital Region",
+        "team": [
+            {
+                "id": 4,
+                "name": "Linda Kovacs",
+                "img": "./assets/imgs/organizers/gdg-capital-region/linda-kovacs.jpg",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Jason Rotella",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Blain Smith",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Fausto Hernandez",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Chadd Portwine",
+                "img": "./assets/imgs/organizers/default.png",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
         "communityName": "GDG Lawrence",
         "team": [
             {
@@ -66,13 +279,34 @@
         ]
     },
     {
-        "id": 1,
-        "communityName": "GDG Lawrence",
+        "id": 4,
+        "communityName": "GDG New Haven",
         "team": [
             {
                 "id": 1,
-                "name": "Roman Jaquez",
-                "img": "./assets/imgs/organizers/gdg-lawrence/roman.jpg",
+                "name": "Rainer Paskiewicz",
+                "img": "./assets/imgs/organizers/gdg-new-haven/rainer_paskiewicz.jpg",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "communityName": "GDG NYC",
+        "team": [
+            {
+                "id": 1,
+                "name": "Anna Nerezova",
+                "img": "./assets/imgs/organizers/gdg-nyc/anna_nerezova.jpg",
                 "socialMedia": [
                     {
                         "type": "linkedin",
@@ -86,8 +320,8 @@
             },
             {
                 "id": 2,
-                "name": "Kevin Quan",
-                "img": "./assets/imgs/organizers/gdg-lawrence/kevin.jpg",
+                "name": "Ralph Yozzo",
+                "img": "./assets/imgs/organizers/default.png",
                 "socialMedia": [
                     {
                         "type": "linkedin",
@@ -101,23 +335,8 @@
             },
             {
                 "id": 3,
-                "name": "Lionel A. Dsouza",
-                "img": "./assets/imgs/organizers/gdg-lawrence/lionel.jpg",
-                "socialMedia": [
-                    {
-                        "type": "linkedin",
-                        "link": ""
-                    },
-                    {
-                        "type": "twitter",
-                        "link": ""
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "name": "Altemar Melendez",
-                "img": "./assets/imgs/organizers/gdg-lawrence/altemar.jpg",
+                "name": "Nitya Narasimhan",
+                "img": "./assets/imgs/organizers/gdg-nyc/nitya_narasimhan.jpg",
                 "socialMedia": [
                     {
                         "type": "linkedin",

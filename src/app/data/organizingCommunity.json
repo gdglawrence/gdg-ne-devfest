@@ -1,26 +1,26 @@
 [
     {
         "id": 1,
-        "communityName": "GDG Lawrence"
+        "communityName": "GDG Cloud Philly"
     },
     {
         "id": 2,
-        "communityName": "GDG Capital Hill"
+        "communityName": "GDG Cloud NYC"
     },
     {
         "id": 3,
-        "communityName": "GDG New York"
+        "communityName": "GDG New Brunswick"
     },
     {
         "id": 4,
-        "communityName": "GDG Bronx"
+        "communityName": "GDG North Jersey"
     },
     {
         "id": 5,
-        "communityName": "GDG Manchester"
+        "communityName": "GDG Manchester NH"
     },
     {
         "id": 6,
-        "communityName": "GDG Boston"
+        "communityName": "GDG Capital Region"
     }
 ]
