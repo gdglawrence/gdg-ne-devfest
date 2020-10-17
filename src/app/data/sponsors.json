@@ -70,5 +70,11 @@
     "name" : "JetBrains",
     "img" : "./assets/imgs/sponsors/jetbrains.png",
     "link" : "https://www.jetbrains.com/"
+  },
+  {
+    "id" : 13,
+    "name" : "Gazpacho",
+    "img" : "./assets/imgs/sponsors/Gazpacho_Logo.png",
+    "link" : "https://twitter.com/GazpachoTheApp/"
   }
 ]
