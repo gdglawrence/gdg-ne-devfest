@@ -63,7 +63,7 @@
         "skills" : "Flutter",
         "img": "./assets/imgs/speakers/scott_stoll.jpg",
         "tech": "./assets/imgs/tech/flutter.png",
-        "bio": "Scott has been involved with Flutter since v0.0.14 (Alpha), working both nationally and internationally as a Flutter Application Developer and Content Creator. Additionally, he has spoken and taught on Flutter at convention events in the United States, Canada, and the United Kingdom, as well as many smaller groups and meetup organizations throughout the United States. He also possesses an Android Developer Nanodegree, from Google/Udacity.",
+        "bio": "Scott Stroll has been involved with Flutter since v0.0.14 (Alpha), working both nationally and internationally as a Flutter Application Developer and Content Creator. Additionally, he has spoken and taught on Flutter at convention events in the United States, Canada, and the United Kingdom, as well as many smaller groups and meetup organizations throughout the United States.",
         "socialMedia": [
             {
                 "type": "linkedin",
