@@ -22,6 +22,7 @@
         { "link": "https://gdg.community.dev/gdg-new-brunswick/", "name": "GDG New Brunswick" },
         { "link": "https://gdg.community.dev/gdg-new-haven/", "name": "GDG New Haven" },
         { "link": "https://gdg.community.dev/gdg-north-jersey/", "name": "GDG North New Jersey" },
-        { "link": "https://gdg.community.dev/gdg-nyc/", "name": "GDG NYC" }
+        { "link": "https://gdg.community.dev/gdg-nyc/", "name": "GDG NYC" },
+        { "link": "https://gdg.community.dev/gdg-portsmouth-nh/", "name": "GDG Portsmouth NH" }
     ]
 }

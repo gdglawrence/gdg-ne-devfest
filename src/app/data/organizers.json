@@ -349,5 +349,26 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 6,
+        "communityName": "GDG Portsmouth NH",
+        "team": [
+            {
+                "id": 1,
+                "name": "Dan Konig",
+                "img": "./assets/imgs/organizers/gdg-portsmouth-nh/dan_konig.jpeg",
+                "socialMedia": [
+                    {
+                        "type": "linkedin",
+                        "link": ""
+                    },
+                    {
+                        "type": "twitter",
+                        "link": ""
+                    }
+                ]
+            }
+        ]
     }
 ]

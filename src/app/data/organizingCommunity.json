@@ -8,15 +8,15 @@
         "communityName": "GDG Cloud NYC"
     },
     {
-        "id": 5,
-        "communityName": "GDG Manchester NH"
-    },
-    {
         "id": 3,
         "communityName": "GDG New Brunswick"
     },
     {
         "id": 4,
         "communityName": "GDG North Jersey"
+    },
+    {
+        "id": 5,
+        "communityName": "GDG Manchester NH"
     }
 ]

@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1602961963323,
+  "timestamp": 1603412812228,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -12,7 +12,7 @@
       },
       "urls": [
         "/index.html",
-        "/main.3c910db83fd868977eee.js",
+        "/main.7b4730635fa290851b91.js",
         "/manifest.webmanifest",
         "/polyfills.a4021de53358bb0fec14.js",
         "/runtime.e227d1a0e31cbccbf8ec.js",
@@ -62,6 +62,7 @@
         "/assets/imgs/organizers/gdg-new-haven/rainer_paskiewicz.jpg",
         "/assets/imgs/organizers/gdg-nyc/anna_nerezova.jpg",
         "/assets/imgs/organizers/gdg-nyc/nitya_narasimhan.jpg",
+        "/assets/imgs/organizers/gdg-portsmouth-nh/dan_konig.jpeg",
         "/assets/imgs/speakers/dan_sullivan.jpg",
         "/assets/imgs/speakers/frank_van_puffelen.jpg",
         "/assets/imgs/speakers/sara_robinson.jpg",
@@ -137,6 +138,7 @@
     "/assets/imgs/organizers/gdg-new-haven/rainer_paskiewicz.jpg": "fdfa1a65f91aec369a0c5cf294e3c99a2d365a3c",
     "/assets/imgs/organizers/gdg-nyc/anna_nerezova.jpg": "c769fb8c53740925311cd21a45e56e013f6f3779",
     "/assets/imgs/organizers/gdg-nyc/nitya_narasimhan.jpg": "ff245514040a70d5e204ad658b4485be32da4e90",
+    "/assets/imgs/organizers/gdg-portsmouth-nh/dan_konig.jpeg": "b30a77e1342c316b9e959124ecabebd7e0f0c62a",
     "/assets/imgs/speakers/dan_sullivan.jpg": "879ba3db3cea5b9bf2ba9402a6c89a2b5d058535",
     "/assets/imgs/speakers/frank_van_puffelen.jpg": "ad4ad85337b4721ba9a96f1a9c30ab767b3256be",
     "/assets/imgs/speakers/sara_robinson.jpg": "4cc754eba2fe8b2852cb239596d492cd4df0a1d9",
@@ -172,8 +174,8 @@
     "/assets/styles/common.scss": "e0a8c6fc2210560bec95f351c04d1cf265cf03e1",
     "/gdgdevfest_webbanner.4ae6d8548de88c1aa666.jpg": "436df00d9d257a01b386434f1d750d31497c64cd",
     "/googlesans-regular.de87f08659cd390c16b0.ttf": "622d237be5cf8501b951a3abadb9440e65633adf",
-    "/index.html": "58c4dc7d0e7c48c9ddcb79e81deb8c8c0835f59c",
-    "/main.3c910db83fd868977eee.js": "e8da132f44eb3b1c3fbcf5b1a5f538732abca1b1",
+    "/index.html": "1a4e314af6c23c46c6b362b37479fd597027564a",
+    "/main.7b4730635fa290851b91.js": "156a2dbe3d8bc6c75edbc06048e739a454643c37",
     "/manifest.webmanifest": "67299ac370775e3395a63f35000229dd9afbbdcd",
     "/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
     "/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
